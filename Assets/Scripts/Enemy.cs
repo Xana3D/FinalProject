@@ -60,7 +60,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-void Patrol()
+    void Patrol()
     {
         agent.destination = GameManager.gm.nodes[currentNode].position;
     }
